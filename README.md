@@ -1,17 +1,44 @@
-# todolist_kelompokdua_kelasd
+# To Do List 
+Untuk memenuhi tugas mata kuliah Pengembangan Aplikasi Web
 
-A new Flutter project.
+## Anggota Kelompok
+1. Muhammad Ghiyats Naufal (1207050073)
+2. Muhammad Gilang Nur Haliz (1207050074)
+3. Nafa Khairunnisa (1207050088)
+4. Naufal Adifa Ramdani (1207050147)
 
-## Getting Started
+## Aplikasi
+aplikasi to do list untuk mencatat jadwal keseharian user
 
-This project is a starting point for a Flutter application.
+### API Method
+- [x] **POST** (Create task)
+- [x] **GET** (View task)
+- [x] **DELETE** (Delete task)
+- [x] **UPDATE** (Edit task)
 
-A few resources to get you started if this is your first Flutter project:
+### Link API
+https://api.nstack.in/v1/todos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Body JSON
+```json
+{
+  "title": "title",
+  "description": "description",
+  "is_completed": false,
+}
+```
+### Install Aplikasi
+cara menjalankan aplikasi sebagai berikut
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# toDoList-kelompokDua-kelasD
+#### install and set up flutter
+<p align="left"><a href="https://flutter.dev" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/></a></p>
+
+#### Clone this repository
+```sh
+git clone https://github.com/mgilangnurhlz/toDoList-kelompokDua-kelasD.git
+```
+
+#### Sync dpendencies in terminal
+```sh
+flutter pub get
+```
