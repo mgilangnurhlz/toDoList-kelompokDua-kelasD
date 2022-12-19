@@ -1,5 +1,5 @@
 # To Do List 
-Untuk memenuhi tugas mata kuliah Pengembangan Aplikasi Web
+Untuk memenuhi tugas mata kuliah Pengembangan Aplikasi Mobile
 
 ## Anggota Kelompok
 1. Muhammad Ghiyats Naufal (1207050073)
