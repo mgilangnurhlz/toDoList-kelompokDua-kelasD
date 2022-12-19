@@ -1,5 +1,5 @@
 # To Do List 
-Untuk memenuhi tugas mata kuliah Pengembangan Aplikasi Mobile
+Untuk memenuhi tugas mata kuliah Pengembangan Aplikasi Mobile Semester 5
 
 ## Anggota Kelompok
 1. Muhammad Ghiyats Naufal (1207050073)
