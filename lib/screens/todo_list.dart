@@ -32,13 +32,13 @@ class _TodoListPageState extends State<TodoListPage> {
           replacement: RefreshIndicator(
             onRefresh: fetchTodo,
             child: ListView.builder(
-              itemsCount: items.length,
+              itemCount: items.length,
               itemBuilder: (context, index) {
                 final item = items[index] as Map;
                 return ListTile(
                   leading: CircleAvatar(child: Text('${index + 1}')),
                   title: Text(item['title']),
-                  title: Text(item['description']),
+                  subtitle: Text(item['description'])
                 );
               },
             ),
@@ -55,8 +55,8 @@ class _TodoListPageState extends State<TodoListPage> {
 
   Future<void> fetchTodo() async {
     final url = 'http://api.nstack.in/v1/todos?page=1&limit=10';
-    final url = Uri.parse(url);
-    final response = http.get(uri);
+    final uri = Uri.parse(url);
+    final response = await http.get(uri);
     if (response.statusCode == 200) {
       final json = jsonDecode(response.body) as Map;
       final result = json['items'] as List;
