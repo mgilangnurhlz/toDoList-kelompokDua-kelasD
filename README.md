@@ -14,7 +14,7 @@ aplikasi to do list untuk mencatat jadwal keseharian user
 - [x] **POST** (Create task)
 - [x] **GET** (View task)
 - [x] **DELETE** (Delete task)
-- [x] **UPDATE** (Edit task)
+- [ ] **UPDATE** 
 
 ### Link API
 https://api.nstack.in/v1/todos
