@@ -11,9 +11,9 @@
 </a></div>
 
 ## Link Terkait
-1. Medium [Klik disini]() 
+1. Medium [Klik disini](https://medium.com/@mgilangnurhaliz/noto-app-b8e199836c70) 
 2. Video Presentasi [Klik disini](https://www.youtube.com/watch?v=6rTBkl_3kkQ) 
-3. Pitch Deck [Klik disini]()
+3. Pitch Deck [Klik disini](https://drive.google.com/drive/folders/1YQPRMnsfvjpePFXs6wYyW1PVeftxPjuu?usp=sharing)
 4. Play Store [Klik disini](https://play.google.com/store/apps/details?id=com.kelompok2kelasd) 
 5. Drive Apk [Klik disini](https://drive.google.com/drive/folders/1wlAKF0QBERInrJhUixnaXES9cIgRdI2L?usp=sharing) 
 
