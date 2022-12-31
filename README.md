@@ -11,10 +11,11 @@
 </a></div>
 
 ## Link Terkait
-1. Medium
-2. Presentasi  
-3. Play Store [Klik disini](https://play.google.com/store/apps/details?id=com.kelompok2kelasd) 
-4. Drive Apk [Klik disini](https://drive.google.com/drive/folders/1wlAKF0QBERInrJhUixnaXES9cIgRdI2L?usp=sharing) 
+1. Medium [Klik disini]() 
+2. Video Presentasi [Klik disini](https://www.youtube.com/watch?v=6rTBkl_3kkQ) 
+3. Pitch Deck [Klik disini]()
+4. Play Store [Klik disini](https://play.google.com/store/apps/details?id=com.kelompok2kelasd) 
+5. Drive Apk [Klik disini](https://drive.google.com/drive/folders/1wlAKF0QBERInrJhUixnaXES9cIgRdI2L?usp=sharing) 
 
 ## Anggota Kelompok
 1. Muhammad Ghiyats Naufal (1207050073)
@@ -44,9 +45,9 @@
 <img src="https://user-images.githubusercontent.com/100754364/210127167-f3343467-3f34-484d-ab96-3c1a06538d43.jpg" width="200" height="400">  </div>
 
 ### API Method
-- [x] **POST** (Create task)
-- [x] **GET** (View task)
-- [x] **DELETE** (Delete task)
+- [x] **POST** 
+- [x] **GET** 
+- [x] **DELETE** 
 - [ ] **UPDATE** 
 
 ### Link API
