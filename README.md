@@ -12,7 +12,7 @@
 
 ## Link Terkait
 1. Medium
-2. YouTube 
+2. Presentasi  
 3. Play Store [Klik disini](https://play.google.com/store/apps/details?id=com.kelompok2kelasd) 
 4. Drive Apk [Klik disini](https://drive.google.com/drive/folders/1wlAKF0QBERInrJhUixnaXES9cIgRdI2L?usp=sharing) 
 
