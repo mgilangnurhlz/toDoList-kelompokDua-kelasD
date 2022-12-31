@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'dart:html';
+
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:todolist_kelompokdua_kelasd/screens/add_page.dart';
@@ -29,7 +29,7 @@ class _TodoListPageState extends State<TodoListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('Todo List')),
+        appBar: AppBar(centerTitle: true, title: Text('Daftar Tugas')),
         body: Visibility(
           visible: isLoading,
           child: Center(child: CircularProgressIndicator()),
@@ -41,25 +41,23 @@ class _TodoListPageState extends State<TodoListPage> {
                 final item = items[index] as Map;
                 final id = item['_id'] as String;
                 return ListTile(
-                    leading: CircleAvatar(child: Text('${index + 1}')),
+                    leading: CircleAvatar(
+                        backgroundColor: const Color(0xdd000000),
+                        child: Text(
+                          '${index + 1}',
+                          style: TextStyle(color: Colors.white),
+                        )),
                     title: Text(item['title']),
                     subtitle: Text(item['description']),
                     trailing: PopupMenuButton(onSelected: (value) {
-                      if (value == 'edit') {
-                        //open Edit Page
-                        navigateToEditPage(item);
-                      } else if (value == 'delete') {
+                      if (value == 'delete') {
                         //Delete and remove the item
                         deleteById(id);
                       }
                     }, itemBuilder: (context) {
                       return [
                         PopupMenuItem(
-                          child: Text('Edit'),
-                          value: 'edit',
-                        ),
-                        PopupMenuItem(
-                          child: Text('Delete'),
+                          child: Text('Hapus'),
                           value: 'delete',
                         ),
                       ];
@@ -69,18 +67,9 @@ class _TodoListPageState extends State<TodoListPage> {
           ),
         ),
         floatingActionButton: FloatingActionButton.extended(
-            onPressed: navigateToAddPage, label: Text('add Todo')));
-  }
-
-  Future<void> navigateToEditPage(Map item) async {
-    final route =
-        MaterialPageRoute(builder: (context) => AddTodoPage(todo: item));
-    Navigator.push(context, route);
-    await Navigator.push(context, route);
-    setState(() {
-      isLoading = true;
-    });
-    fetchTodo();
+            onPressed: navigateToAddPage,
+            backgroundColor: const Color(0xdd000000),
+            label: Text('Tambah Tugas')));
   }
 
   Future<void> navigateToAddPage() async {
@@ -104,7 +93,7 @@ class _TodoListPageState extends State<TodoListPage> {
         items = filtered;
       });
     } else {
-      showErrorMessage('Deletion Failed');
+      showErrorMessage('Hapus tugas gagal');
     }
   }
 
